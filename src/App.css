@@ -14,13 +14,13 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #A3DCED;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  font-size: calc(10px + 5vmin);
   color: white;
 }
 
@@ -35,4 +35,36 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.mobilebanner {
+  margin-top: 20px;
+  width: 50%;
+}
+.growsavings {
+  width: 70%;
+}
+.bannerText {
+  margin-top: 25px;
+  padding: 30px;
+}
+.save {
+  font-weight: "700";
+  color: #18BED4;
+}
+.gloan {
+  font-weight: "700";
+  color: #18BED4;
+}
+.discounts {
+  background-color: #A3DCED;
+  margin: 5px;
+  border-radius: 2%;
+}
+.quickloans {
+  color: #18BED4;
+  font-style: italic;
+}
+.openaccount {
+  width: 100%;
 }
